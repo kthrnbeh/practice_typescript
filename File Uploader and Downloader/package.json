@@ -1,0 +1,17 @@
+{
+  "name": "file-uploader-downloader",
+  "version": "1.0.0",
+  "description": "A TypeScript command-line file uploader and downloader.",
+  "main": "dist/file-server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/file-server.js",
+    "check": "tsc --noEmit"
+  },
+  "keywords": ["typescript", "file-server", "cse310"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
