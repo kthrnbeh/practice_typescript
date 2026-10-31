@@ -1,0 +1,18 @@
+{
+  "name": "typescript-authentication-system",
+  "version": "1.0.0",
+  "description": "A TypeScript terminal authentication and user profile system.",
+  "main": "dist/authentication-system.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/authentication-system.js",
+    "check": "tsc --noEmit"
+  },
+  "keywords": ["typescript", "authentication", "cse310"],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
+
