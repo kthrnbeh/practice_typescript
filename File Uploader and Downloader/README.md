@@ -58,7 +58,7 @@ The `upload` command copies a file into server storage. The `download` command c
 
 | Requirement | Where it appears |
 | --- | --- |
-| Display output to the terminal | `console.log` and `console.error` throughout `src/file-server.ts` |
+| Display output to the terminal | `console.log` and `console.error` throughout `file-server.ts` |
 | Recursion | `printDirectoryTree` in `file-server.ts` calls itself for nested directories |
 | Classes | `FileServer` in `file-server.ts` organizes server operations and data |
 | Lists | `FileRecord[]` in `file-server.ts` stores uploaded-file records |
