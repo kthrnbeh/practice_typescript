@@ -59,11 +59,11 @@ The `upload` command copies a file into server storage. The `download` command c
 | Requirement | Where it appears |
 | --- | --- |
 | Display output to the terminal | `console.log` and `console.error` throughout `src/file-server.ts` |
-| Recursion | `printDirectoryTree` calls itself for nested directories |
-| Classes | `FileServer` organizes server operations and data |
-| Lists | `FileRecord[]` stores uploaded-file records |
-| Asynchronous functions | File operations use `async`, `await`, and `fs/promises` |
-| Stretch: exceptions | Operations throw errors and the command loop catches and displays them |
+| Recursion | `printDirectoryTree` in `file-server.ts` calls itself for nested directories |
+| Classes | `FileServer` in `file-server.ts` organizes server operations and data |
+| Lists | `FileRecord[]` in `file-server.ts` stores uploaded-file records |
+| Asynchronous functions | File operations in `file-server.ts` use `async`, `await`, and `fs/promises` |
+| Stretch: exceptions | Operations throw errors and the command loop in `file-server.ts` catches and displays them |
 
 ## Future Improvements
 
